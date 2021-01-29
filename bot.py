@@ -7,6 +7,7 @@ import random
 import time
 
 PORT = int(os.environ.get('PORT', 3978))
+
 TOKEN = os.environ.get('TOKEN')
 
 logging.basicConfig(format='%(levelname)s - %(message)s',
@@ -391,6 +392,8 @@ def about(update, context):
 Brei is based on an MNL48 member, Brei \(https\:\/\/instagram\.com\/brei\.mnl48official\)\.
 I created this bot to improve my coding and I am planning this to
 be a multi purpose bot\.
+
+Brei is open source\: https://github.com/goyo07/brei-bot
 """
     context.bot.send_message(chat_id = update.message.chat_id,
         text = msg,
