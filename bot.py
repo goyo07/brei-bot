@@ -393,7 +393,7 @@ Brei is based on an MNL48 member, Brei \(https\:\/\/instagram\.com\/brei\.mnl48o
 I created this bot to improve my coding and I am planning this to
 be a multi purpose bot\.
 
-Brei is open source\: https\:\/\/github\.com\/goyo07\/brei\-bot
+Brei is open source\: https\:\/\/github\.com\/gowayo\/brei\-bot
 """
     context.bot.send_message(chat_id = update.message.chat_id,
         text = msg,
